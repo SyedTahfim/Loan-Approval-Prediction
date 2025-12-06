@@ -1,13 +1,16 @@
 ## <img src="https://cdn-icons-png.flaticon.com/128/3989/3989573.png" width="20" /> Motivation
 Banks and lenders need to minimize defaults and non-performing loans. Accurate prediction models help identify applicants who are likely to repay, protecting the institution's capital and maintaining portfolio health. Even a small improvement in prediction accuracy can translate to millions in saved losses. 
+<p align="center">
+    <img src="https://inception-app-prod.s3.amazonaws.com/OTg3NWIzOGQtOGU3YS00OTY2LTlkNzktZDZmMTNmN2NlMGNl/content/2017/11/loan-approved.gif" width="45%" alt="Image 1 Description" style="float: left; margin-right: 2%;">
+</p>
 
-## <img src="https://cdn-icons-png.flaticon.com/128/3176/3176324.png" width="20" /> Objectives
-- Data Cleansing
+## <img src="https://cdn-icons-png.flaticon.com/128/3176/3176324.png" width="20" /> Feaatures
+- Data Wrangling
 - Exploratory Data Analysis
 - Identify Degree of Multicollinearity
 - Feature Engineering using Weight of Evidence (WOE) and Information Value (IV)
-- Logistic Regression Model Development
-- Model Stability Test
+- Logistic Regression Model Implementation using Scikit Learn Library
+- Model Stability Test 
 
 ## <img src="https://cdn-icons-png.flaticon.com/128/18289/18289400.png" width=20 /> Dataset
 -  __Title__: Loan Approval/Rejection Data
