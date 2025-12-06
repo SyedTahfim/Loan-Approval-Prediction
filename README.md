@@ -7,6 +7,14 @@ Banks and lenders need to minimize defaults and non-performing loans. Accurate p
 ## <img src="https://cdn-icons-png.flaticon.com/128/3176/3176324.png" width="20" /> Feaatures
 - Data Wrangling
 - Exploratory Data Analysis
+    -  Distribution of Numerical Variables
+    -  Correlation between the Numerical Variables
+    -  Correlation with the Loan Amount
+    -  Correlationwith the Income
+ <p align="center">
+    <img src="https://github.com/SyedTahfim/Loan-Approval-Prediction/blob/main/distribution_numerical.png" width="45%" alt="Image 1 Description" style="float: left; margin-right: 2%;">
+ </p>
+ 
 - Identify Degree of Multicollinearity
 - Feature Engineering using Weight of Evidence (WOE) and Information Value (IV)
 - Logistic Regression Model Implementation using Scikit Learn Library
@@ -25,12 +33,17 @@ Banks and lenders need to minimize defaults and non-performing loans. Accurate p
 - Sci-kit Learn
 - Statistical Models
 
-## <img src="https://cdn-icons-png.flaticon.com/128/1844/1844921.png" width=20 /> Evaluation Metrices
-- Accuracy
-- ROC AUC Score
+## <img src="https://cdn-icons-png.flaticon.com/128/1844/1844921.png" width=20 /> Model Evaluation
+- The logistic regression model achieved an accuracy score of 91.33%. On imbalance datasets, the accuracy scores are generally high because the model gets biased towards the ngative class. 
+- The ROC curve and AUC score usually reveal the real performance of the model.
+
+<p align="center">
+    <img src="https://github.com/casper6020/Loan-Approval-Prediction/blob/main/Loan%20Approval%20Prediction_Log_Report.png" width="45%" alt="Image 1 Description" style="float: left; margin-right: 2%;">
+</p>
+
 - PSI (Population Stability Index)
 
-## <img src="https://cdn-icons-png.flaticon.com/128/9623/9623606.png" width=20 /> Insights
+## <img src="https://cdn-icons-png.flaticon.com/128/9623/9623606.png" width=20 /> Key Takeways
 <p align="center">
     <img src="https://github.com/casper6020/Loan-Approval-Prediction/blob/main/Loan%20Approval%20Prediction_Log_Report.png" width="45%" alt="Image 1 Description" style="float: left; margin-right: 2%;">
 </p>
@@ -42,6 +55,11 @@ Banks and lenders need to minimize defaults and non-performing loans. Accurate p
 *The negative coefficient implies that longer loan tenures reduce the log-odds of loan approval. Longer repayment periods often increase the lender’s risk exposure, as they are more uncertain and subject to future financial changes of the borrower. Therefore, this negative relationship is financially consistent.*
 
 **Loan-to-Income Ratio (β = -1.4561, p < 0.001):**
-*A higher loan-to-income ratio significantly reduces the likelihood of loan approval. This indicates that when the loan amount is large relative to income, the applicant is perceived as riskier, consistent with prudent credit assessment principles.*
+*A higher loan-to-income ratio significantly reduces the likelihood of loan approval. This indicates that when the loan amount is large relative to income, the applicant is perceived as riskier, consistent with prudent credit assessment principles.* 
+
+## <img src="https://cdn-icons-png.flaticon.com/128/9506/9506312.png" width=20 /> Business Insight
+Given the logistic regression results, we can conclude that the credit analyst should approve loan applications where the applicant has higher Cibil score, the loan term is not too long, and the loan to income ratio within the risk appetitte of the institutions. 
+
+
 
 
