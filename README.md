@@ -34,14 +34,15 @@ Banks and lenders need to minimize defaults and non-performing loans. Accurate p
 - Statistical Models
 
 ## <img src="https://cdn-icons-png.flaticon.com/128/1844/1844921.png" width=20 /> Model Evaluation
-- The logistic regression model achieved an accuracy score of 91.33%. On imbalance datasets, the accuracy scores are generally high because the model gets biased towards the ngative class. 
-- The ROC curve and AUC score usually reveal the real performance of the model.
+- The logistic regression model achieved an accuracy score of __91.33%__. On imbalance datasets, the accuracy scores are generally high because the model gets biased towards the ngative class. 
+- The ROC curve and AUC score usually reveal the true performance of the model trained on imbalance dataset. A ROC curve on the top-left corner of the plot is an indication that the model can separate the two classes distinctively at different threshold.
+- The model achieved an AUC score of 97.33%, which indicates the __True Positive Rate (TPR)__ remains very high without increasing the __False Positive Rate (FPR)__. 
 
 <p align="center">
-    <img src="https://github.com/casper6020/Loan-Approval-Prediction/blob/main/Loan%20Approval%20Prediction_Log_Report.png" width="45%" alt="Image 1 Description" style="float: left; margin-right: 2%;">
+    <img src="https://github.com/SyedTahfim/Loan-Approval-Prediction/blob/main/ROC_AUC_Score.png" width="45%" alt="Image 1 Description" style="float: left; margin-right: 2%;">
 </p>
 
-- PSI (Population Stability Index)
+- PSI (Population Stability Index) value was __0.0042__. This means the probability distribution in the test data is almost the same as the training data. 
 
 ## <img src="https://cdn-icons-png.flaticon.com/128/9623/9623606.png" width=20 /> Key Takeways
 <p align="center">
