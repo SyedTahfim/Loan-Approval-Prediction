@@ -7,6 +7,14 @@ Banks and lenders need to minimize defaults and non-performing loans. Accurate p
 ## <img src="https://cdn-icons-png.flaticon.com/128/3176/3176324.png" width="20" /> Feaatures
 - Data Wrangling
 - Exploratory Data Analysis
+    -  Distribution of Numerical Variables
+    -  Correlation between the Numerical Variables
+    -  Correlation with the Loan Amount
+    -  Correlationwith the Income
+ <p align="center">
+    <img src="https://github.com/SyedTahfim/Loan-Approval-Prediction/blob/main/distribution_numerical.png" width="45%" alt="Image 1 Description" style="float: left; margin-right: 2%;">
+ </p>
+ 
 - Identify Degree of Multicollinearity
 - Feature Engineering using Weight of Evidence (WOE) and Information Value (IV)
 - Logistic Regression Model Implementation using Scikit Learn Library
