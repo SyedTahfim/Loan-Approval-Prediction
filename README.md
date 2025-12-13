@@ -59,7 +59,7 @@ Banks and lenders need to minimize defaults and non-performing loans. Accurate p
 *A higher loan-to-income ratio significantly reduces the likelihood of loan approval. This indicates that when the loan amount is large relative to income, the applicant is perceived as riskier, consistent with prudent credit assessment principles.* 
 
 ## <img src="https://cdn-icons-png.flaticon.com/128/9506/9506312.png" width=20 /> 7. Business Insight
-Given the logistic regression results, we can conclude that the credit analyst should approve loan applications where the applicant has higher CIBIL score, the loan term is not too long, and the loan to income ratio within the risk appetite of the institutions. 
+Given the logistic regression results, we can conclude that the credit analyst should approve loan applications where the applicant has high __CIBIL__ score, the __loan term__ is not too long, and the __loan to income ratio__ within the risk appetite of the institutions. 
 
 
 
