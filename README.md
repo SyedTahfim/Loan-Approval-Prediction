@@ -1,5 +1,5 @@
 ## <img src="https://cdn-icons-png.flaticon.com/128/3989/3989573.png" width="20" /> 1. Motivation
-Banks and lenders need to minimize defaults and non-performing loans. Accurate prediction models help identify applicants who are likely to repay, protecting the institution's capital and maintaining portfolio health. Even a small improvement in prediction accuracy can translate to millions in saved losses. 
+Who gets a loan is a critical decision for financial institutions. The motivation behind leveraging statistical modes is to make loan approval decision more objective, consistent, and data-driven. By identifying key factors associated with creditworthiness, lenders aim to improve risk assessment, reduce lending uncertainty, and support responsible credit decisions. Application of statistical and machine learning models for loan approval decision making can accelerate credit underwriting and increase financial inclusion. 
 <p align="center">
     <img src="https://inception-app-prod.s3.amazonaws.com/OTg3NWIzOGQtOGU3YS00OTY2LTlkNzktZDZmMTNmN2NlMGNl/content/2017/11/loan-approved.gif" width="45%" alt="Image 1 Description" style="float: left; margin-right: 2%;">
 </p>
@@ -15,7 +15,7 @@ Banks and lenders need to minimize defaults and non-performing loans. Accurate p
     <img src="https://github.com/SyedTahfim/Loan-Approval-Prediction/blob/main/distribution_numerical.png" width="45%" alt="Image 1 Description" style="float: left; margin-right: 2%;">
  </p>
  
-3. Identify Degree of Multicollinearity
+3. Identify Degree of Multi-collinearity
 4. Feature Engineering using Weight of Evidence (WOE) and Information Value (IV)
 5. Logistic Regression Model Implementation using Sci-kit Learn Library
 6. Model Stability Test 
